@@ -1,0 +1,89 @@
+.header {
+  display: flex;
+  flex-direction: row;
+  background-color: #f55a5a;
+  justify-content: center;
+  align-items: center;
+  height: 55px;
+}
+
+.header .logo {
+  height: 24px;
+  width: 24px;
+}
+
+.header .title {
+  padding: 7px;
+  color: #fff;
+  font-size: 14px;
+  font-weight: 500;
+  letter-spacing: -1.085px;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 27px 10px;
+}
+
+.card {
+  padding: 18px 0px;
+  display: flex;
+  align-items: center;
+  max-width: 550px;
+}
+
+.card-img {
+  height: 168px;
+  width: 125px;
+  object-fit: cover;
+  border-radius: 5px;
+}
+
+.card-details {
+  padding: 19px;
+}
+
+.card-pin {
+  width: 7px;
+  height: 9.545px;
+  flex-shrink: 0;
+}
+
+.card-country {
+  color: #2b283a;
+  font-size: 10.24px;
+  letter-spacing: 1.741px;
+  padding: 4px;
+}
+
+.card-map-link {
+  color: #918e9b;
+  font-size: 10.24px;
+  font-family: Inter;
+  text-decoration-line: underline;
+  padding: 12px;
+}
+
+.card-pointOfInetrest {
+  color: #2b283a;
+  font-size: 25px;
+  font-family: Inter;
+  font-weight: 700;
+  height: 40px;
+}
+
+.card-date {
+  padding: 7px 0px;
+  color: #2b283a;
+  font-size: 10.24px;
+  font-weight: 700;
+}
+
+.card-about {
+  color: #2b283a;
+  font-size: 10.24px;
+  font-family: Inter;
+  line-height: 150%;
+}
