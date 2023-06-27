@@ -34,6 +34,10 @@
   max-width: 550px;
 }
 
+.card span {
+  white-space: nowrap;
+}
+
 .card-img {
   height: 168px;
   width: 125px;
